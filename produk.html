@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-warning shadow-sm">
-        <div class="container-fluid"><a class="navbar-brand" href="#home">Opak Sari Rasa</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="#home">Opak Sari Rasa</a><button
+                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
+                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
@@ -33,34 +36,53 @@
                     <h2>Produk</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <div class="card"></div>
-                    <div class="card">
-                        <div class="card-body"><img src="assets/img/kelontong.jpg" width="100%">
-                            <h4 class="card-title">Kelontong</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Rp30.000/kg</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-5 bg-warning" data-aos="fade-right" data-aos-duration="500">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="assets/img/opak.jpg" class="img-fluid rounded-start" alt="Opak">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Opak</h3>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At perspiciatis ipsam adipisci consequuntur ullam iusto? Placeat, praesentium ratione? Inventore cumque magnam deleniti ipsam corrupti earum saepe illo alias maiores itaque.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-md-center">
-                    <div class="card"></div>
-                    <div class="card">
-                        <div class="card-body"><img src="assets/img/opak.jpg" width="100%">
-                            <h4 class="card-title">Opak</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Rp40.000/kg</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-5 bg-danger text-light" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title text-md-end">Kelontong</h3>
+                                    <p class="card-text text-md-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit tempore nostrum dolore placeat, ad doloremque! Minus, earum nostrum voluptates veniam saepe modi expedita qui, id sed accusamus cumque consectetur.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/kelontong.jpg" class="img-fluid rounded-end" alt="Kelontong">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 text-md-end">
-                    <div class="card"></div>
-                    <div class="card">
-                        <div class="card-body"><img src="assets/img/rengginang.jpg" width="100%">
-                            <h4 class="card-title">Rengginang</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Rp30.000/kg</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-5 bg-warning" data-aos="fade-right" data-aos-duration="500">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="assets/img/rengginang.jpg" class="img-fluid rounded-start" alt="Rengginang">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Rengginang</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, illum voluptas! Et animi quod soluta eveniet reprehenderit libero totam iste? Accusamus soluta iste vitae, unde at est distinctio tempore hic.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,14 +110,21 @@
                 </div>
                 <div class="col-md-6 item text">
                     <h3>Company Name</h3>
-                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula
+                        rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel
+                        in justo.</p>
                 </div>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                            class="icon ion-social-twitter"></i></a><a href="#"><i
+                            class="icon ion-social-snapchat"></i></a><a href="#"><i
+                            class="icon ion-social-instagram"></i></a></div>
             </div>
             <p class="copyright">Company Name © 2022</p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 
 </html>
