@@ -1,0 +1,51 @@
+section {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;
+  height: 100vh;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: currentColor;
+  z-index: 1;
+}
+
+@media (min-width: 576px) {
+  .hero {
+    min-height: 680px;
+  }
+}
+
+.hero .text {
+  max-width: 640px;
+  color: #333;
+  z-index: 2;
+  padding: 40px 15px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.15);
+}
+
+@media (min-width: 576px) {
+  .hero .text {
+    padding: 0;
+  }
+}
+
+p {
+  text-align: justify;
+}
